@@ -79,7 +79,7 @@ git push
 
 ## 📚 Documentação
 
-- Documentação completa da arquitetura do sistema (fluxo JWT, modelo de domínio, endpoints): ver `helpdesk-documentacao-completa.md`
+- Documentação completa da arquitetura do sistema (fluxo JWT, modelo de domínio, endpoints): ver [`helpdesk-documentacao-completa.md`](https://github.com/jnobr3c/helpdesk/blob/main/helpdesk-documentacao-completa.md)
 - README específico do backend: [`helpdesk-api/README.md`](https://github.com/jnobr3c/helpdesk-api)
 - README específico do frontend: [`helpdesk-front/README.md`](https://github.com/jnobr3c/helpdesk-front)
 
