@@ -1,0 +1,15 @@
+﻿{
+  "name": "helpdesk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Repositório orquestrador do projeto Helpdesk (helpdesk-api + helpdesk-front)",
+  "scripts": {
+    "dev": "concurrently -n API,FRONT -c blue,green \"npm run dev:api\" \"npm run dev:front\"",
+    "dev:api": "cd helpdesk-api && mvn spring-boot:run",
+    "dev:front": "cd helpdesk-front && npm install && ng serve",
+    "install:front": "cd helpdesk-front && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

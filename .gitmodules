@@ -1,0 +1,6 @@
+[submodule "helpdesk-api"]
+	path = helpdesk-api
+	url = https://github.com/jnobr3c/helpdesk-api.git
+[submodule "helpdesk-front"]
+	path = helpdesk-front
+	url = https://github.com/jnobr3c/helpdesk-front.git
